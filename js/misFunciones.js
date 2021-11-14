@@ -1,6 +1,6 @@
 function traerInformacionCategorias(){
     $.ajax({
-        url:"http://132.226.29.194:8080/api/Category/all",
+        url:"http://158.101.32.195:8080/api/Category/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -35,7 +35,7 @@ function guardarInformacionCategorias(){
         dataType: 'JSON',
         data: JSON.stringify(var2),
         
-        url:"http://132.226.29.194:8080/api/Category/save",
+        url:"http://158.101.32.195:8080/api/Category/save",
        
         
         success:function(response) {
@@ -59,7 +59,7 @@ function guardarInformacionCategorias(){
 ///////////////////Machine//////////////////////////////////////
 function traerInformacionMachines(){
     $.ajax({
-        url:"http://132.226.29.194:8080/api/Machine/all",
+        url:"http://158.101.32.195:8080/api/Machine/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -98,7 +98,7 @@ function guardarInformacionMachine(){
         dataType: 'JSON',
         data: JSON.stringify(var3),
         
-        url:"http://132.226.29.194:8080/api/Machine/save",
+        url:"http://158.101.32.195:8080/api/Machine/save",
        
         
         success:function(response) {
@@ -121,7 +121,7 @@ function guardarInformacionMachine(){
 //////////////////////Clientes//////////////////////////////////
 function traerInformacionClientes(){
     $.ajax({
-        url:"http://132.226.29.194:8080/api/Client/all",
+        url:"http://158.101.32.195:8080/api/Client/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -160,7 +160,7 @@ function guardarInformacionClientes(){
         dataType: 'JSON',
         data: JSON.stringify(var4),
         
-        url:"http://132.226.29.194:8080/api/Client/save",
+        url:"http://158.101.32.195:8080/api/Client/save",
        
         
         success:function(response) {
